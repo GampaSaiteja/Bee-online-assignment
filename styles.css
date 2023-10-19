@@ -1,0 +1,142 @@
+body {
+    font-family: "Neometric";
+    height: 100vh;
+}
+
+.bg-container {
+    height: 100vh;
+    background-image: url('Background (Slide 1).png');
+    background-size: cover;
+    padding-left: 20px;
+}
+
+.list-name {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-grow: 1;
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+
+.list-item {
+    padding-right: 20px;
+    color: black;
+}
+
+
+
+.logo {
+    font-family: 'Neometric';
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.des {
+    font-size: 1-px;
+    padding-top: 20px;
+}
+
+.con {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.girl-image {
+    height: 500px;
+    width: 500px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.text-con {
+    width: 50%;
+}
+
+.image-con {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bg-img1 {
+    background-image: url('Background (Slide 2).png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-img2 {
+    background-image: url('Mask group (1).png');
+    width: 100%;
+    background-size: cover;
+}
+
+.bg-img3 {
+    background-image: url('Rectangle 8.png');
+    padding: 50px;
+    background-size: cover;
+} 
+
+.bg-img4 {
+    background-image: url('Background (Slide 3).png');
+    background-size: cover;
+    width: 50%;
+    flex-grow: 1;
+}
+
+.mask-img {
+    width: 90%;
+}
+
+.con-1 {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.text-con-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.text-con-2 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.bg-img5 {
+    height: 100%;
+    width: 100vw;
+    background-image: url('Mask group (2).png');
+    background-size: cover;
+}
+
+.footer-section {
+    background-color: black;
+    padding: 10px;
+}
+
+.footer-heading {
+    color: white;
+    text-align: center;
+}
+
+.footer-description {
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+}
